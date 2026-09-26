@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Flavours of the Kitchen</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero">
+    <h1>Flavours of the Kitchen</h1>
+    <p>Simple recipes, <span class="highlight">real</span> ingredients.</p>
+  </header>
+
+  <!-- Below is a block-level container that groups the site's introductory paragraph -->
+  <!-- The "intro" class is used in CSS to limit the text width and center the block -->
+  <div class="intro">
+    <p>
+      Welcome to <strong>Flavours of the Kitchen</strong>, a space dedicated to
+      everyone who loves cooking at home. Here you will find tried-and-tested
+      recipes, explained step by step, so you can prepare delicious dishes without
+      any fuss. Our aim is to show that <span class="highlight">cooking well</span>
+      doesn't need to be difficult or expensive: all it takes is good ingredients
+      and a few simple techniques. Below you will find three favourite recipes
+      from our community, chosen because they are quick, tasty and easy to
+      reproduce. Have a browse, give them a go, and adapt each recipe to your own
+      taste. Happy cooking!
+    </p>
+  </div>
+
+  <h2>Pantry essentials</h2>
+  <ul>
+    <li>Extra virgin olive oil</li>
+    <li>Salt and black pepper</li>
+    <li>Garlic and onion</li>
+    <li>Rice and pasta</li>
+  </ul>
+
+  <h2>Basic steps for any recipe</h2>
+  <!-- An ordered list is used here because the order of the steps is important -->
+  <ol>
+    <li>Gather all the ingredients before you start</li>
+    <li>Prepare the seasonings and any necessary chopping</li>
+    <li>Cook for the time stated in the recipe</li>
+    <li>Adjust the seasoning and serve while hot</li>
+  </ol>
+
+  <main>
+
+    <!-- Recipe 1: Mushroom Risotto -->
+    <!-- Block-level <section>: groups all the content for one recipe (title, image, time and description) -->
+    <section class="recipe">
+      <!-- Heading for this recipe -->
+      <h3>Mushroom Risotto</h3>
+      <!-- Image of the dish; the "recipe-photo" class in the CSS keeps it centred and responsive -->
+      <img class="recipe-photo" src="https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=500" alt="Mushroom risotto">
+      <!-- Cooking time and number of servings -->
+      <p class="time">⏱ 40 minutes · 🍽 4 servings</p>
+      <p>A creamy Italian classic, made with arborio rice, fresh mushrooms and a splash of white wine.</p>
+    </section>
+
+    <!-- Recipe 2: Mediterranean Salad -->
+    <section class="recipe">
+      <h3>Mediterranean Salad</h3>
+      <img class="recipe-photo" src="https://images.unsplash.com/photo-1623428187969-5da2dcea5ebf?w=500" alt="Mediterranean salad">
+      <p class="time">⏱ 15 minutes · 🍽 2 servings</p>
+      <p>Light, fresh and full of flavour — tomato, cucumber, olives and feta cheese with olive oil.</p>
+    </section>
+
+    <!-- Recipe 3: Chocolate Cake -->
+    <section class="recipe">
+      <h3>Chocolate Cake</h3>
+      <img class="recipe-photo" src="https://images.unsplash.com/photo-1517427294546-5aa121f68e8a?w=500" alt="Chocolate cake">
+      <p class="time">⏱ 1 hour · 🍽 8 servings</p>
+      <p>A soft, moist sponge topped with a rich chocolate ganache — the perfect dessert for any occasion.</p>
+
+      <div class="full-recipe">
+        <h4>Ingredients</h4>
+        <ul>
+          <li>200g plain flour</li>
+          <li>200g caster sugar</li>
+          <li>50g cocoa powder</li>
+          <li>2 teaspoons baking powder</li>
+          <li>¼ teaspoon salt</li>
+          <li>2 large eggs</li>
+          <li>200ml milk</li>
+          <li>100ml sunflower oil</li>
+          <li>1 teaspoon vanilla extract</li>
+          <li>100g dark chocolate, melted (for the ganache)</li>
+          <li>100ml double cream (for the ganache)</li>
+        </ul>
+
+        <h4>Method</h4>
+        <ol>
+          <li>Preheat the oven to 180°C (fan 160°C) and grease a 20cm round cake tin.</li>
+          <li>In a large bowl, sieve together the flour, sugar, cocoa powder, baking powder and salt.</li>
+          <li>In a separate jug, whisk the eggs, milk, sunflower oil and vanilla extract.</li>
+          <li>Pour the wet ingredients into the dry ingredients and mix until smooth.</li>
+          <li>Pour the batter into the tin and bake for 30–35 minutes, or until a skewer comes out clean.</li>
+          <li>Leave the cake to cool completely on a wire rack before adding the ganache.</li>
+          <li>To make the ganache, warm the double cream gently and pour it over the melted dark chocolate, stirring until glossy.</li>
+          <li>Spread the ganache over the cooled cake and leave to set for 15 minutes before serving.</li>
+        </ol>
+      </div>
+
+    </section>
+
+  </main>
+
+ <p>Want to learn more cooking techniques? Visit
+    <a href="https://www.bbcgoodfood.com/">BBC Good Food</a> for more inspiration and recipes.</p>
+
+  <footer>
+    <p>Made by Samira Guimaraes </p>
+  </footer>
+
+</body>
+</html>

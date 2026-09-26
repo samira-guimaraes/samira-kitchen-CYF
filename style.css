@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #fdf6ec;
+  color: #3e2723;
+}
+
+/* Style for the page header (hero section) */
+.hero {
+  text-align: center;  /* Centres the text horizontally */
+  padding: 60px 20px;  /* Adds spacing inside the box: 60px top/bottom, 20px left/right */
+  background-color: #d84315; 
+  color: white;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  color: #ffab91;
+  font-weight: bold;
+}
+
+.intro {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+
+h2 {
+  text-align: center;
+  color: #d84315;
+  margin: 30px 0 10px;
+}
+
+ul, ol {
+  max-width: 500px;
+  margin: 0 auto 30px;
+  padding-left: 40px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+main {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.recipe {
+  background: white;
+  border: 1px solid #e0d6c8;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.recipe h3 {
+  color: #d84315;
+  margin-bottom: 15px;
+}
+
+/* Image below the title, centred, regardless of viewport width */
+.recipe-photo {
+  display: block;
+  margin: 0 auto 15px;
+  width: 300px;
+  max-width: 90%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.time {
+  font-size: 0.9rem;
+  color: #8d6e63;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 20px;
+  padding: 0 20px;
+}
+
+a {
+  color: #d84315;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #8d6e63;
+  font-size: 0.9rem;
+}
+
+/* Full recipe details (ingredients and method) */
+.full-recipe {
+  text-align: left;
+  margin-top: 15px;
+}
+
+.full-recipe h4 {
+  color: #d84315;
+  margin: 15px 0 8px;
+}
+
+.full-recipe ul,
+.full-recipe ol {
+  max-width: none;
+  margin: 0 0 10px 20px;
+  padding-left: 20px;
+}
+
+.full-recipe li {
+  margin-bottom: 4px;
+}
